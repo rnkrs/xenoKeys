@@ -1,0 +1,44 @@
+body {
+    background-image: url("background2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+   }
+
+
+
+h2 {
+    color: rgb(24, 168, 24);
+}
+
+a[href$=".html"] {
+    color: rgb(24, 168, 24);
+    font-size: 1.3rem;
+}
+
+i {
+    color: rgb(24, 168, 24);
+}
+
+a[href$=".html"]:hover {
+    color: white;
+    background-color: rgb(24, 168, 24);
+}
+
+.myelement {
+    clear:left;
+    height:25px;
+    margin: 200px;  
+   }
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(./xenogears_font.ttf);
+  }
+
+
+  
+.display-2 {
+    font-family: "";
+  }
